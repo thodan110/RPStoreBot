@@ -24,7 +24,7 @@ python configure.py
 ```python
 python discord-shop.py
 ```
-- #### 4. Optional: Use Docker
+- #### 4. Optional: Use Docker (This is from original code, not tested/used by me)
 - ##### 4.1 Create the docker image
 ##### Navigate first into the discord-shop folder and then enter:
 ```bash
@@ -36,13 +36,12 @@ docker build -t discordshopbot .
 ## Usage
 #### You must have the "Seller" role on your server in order to use all features except the setup of the bot
 
-- #### =setup: Runs the automatic Setup
 - #### =help: Command Help
-- #### =clear: Delete all messages in a channel
-- #### =addcategory: Create a shop category
 - #### =additem: Create a item
 - #### React with ✏️ to a item to edit it.
 - #### React with 🗑️ to a item to delete it.
+- #### =use: Type GP or XP or both to use a gold or xp boost (removes one from count, adds notice if no boosts available)
+- #### @RPShopBot: Tag rpshopbot and users to add RP too. Amount of RP must be last text
 
 ## Contributing
 #### Pull requests are welcome. For major changes, please open an issue upfront to discuss what you would like to change.
