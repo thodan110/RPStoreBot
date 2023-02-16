@@ -1,6 +1,6 @@
 # RPStoreBot
 A Bot which manages a fully working shop system to keep track of, earn and spend RP points.
-# Original Source https://github.com/Luois45/DiscordShopBot
+## Original Source https://github.com/Luois45/DiscordShopBot
 
 ## Add the bot to your server
 
